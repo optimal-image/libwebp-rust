@@ -29,7 +29,7 @@ install:
 
 script:
   - bash ci/script.sh
-  - cargo doc && echo "<meta http-equiv=refresh content=0;url=`echo libwebp-rust | cut -d '/' -f 2`/index.html>" > target/doc/index.html
+  - cargo doc && echo "<meta http-equiv=refresh content=0;url=`echo libwebp_rust | cut -d '/' -f 2`/index.html>" > target/doc/index.html
 
 after_script: set +e
 
