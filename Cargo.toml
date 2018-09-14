@@ -1,0 +1,8 @@
+[package]
+name = "libwebp-rust"
+version = "0.1.0"
+authors = ["Andrea Moretti (@axyz) <axyzxp@gmail.com>"]
+build = "build.rs"
+
+[build-dependencies]
+bindgen = "*"
