@@ -16,7 +16,9 @@ matrix:
 addons:
   apt:
     packages:
-      - libvips-dev
+      - libwebp-dev
+      - libclang-dev
+      - clang
 
 before_install:
   - set -e
