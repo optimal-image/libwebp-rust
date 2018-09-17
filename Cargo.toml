@@ -3,6 +3,8 @@ name = "libwebp-rust"
 version = "0.1.0"
 authors = ["Andrea Moretti (@axyz) <axyzxp@gmail.com>"]
 build = "build.rs"
+description = "Rust bindings for libwebp"
+license = "MIT"
 
 [build-dependencies]
 bindgen = "*"
